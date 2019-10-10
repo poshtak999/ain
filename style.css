@@ -1,9 +1,32 @@
+body {
+  background-color: #eff1f2;
+}
+li {
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+li:first-child {
+  border-top: 0 !important;
+}
+li:last-child {
+  border-bottom: 0 !important;
+}
 .main-container {
   min-height: 66vh;
 }
 .background-container {
   background-image: url(https://mirpozitiva.ru/uploads/posts/2016-08/medium/1472042903_31.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
   min-height: 65vh;
+}
+.background-small-container {
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 20vh;
 }
 .image-content {
   min-height: 100%;
@@ -13,6 +36,16 @@
   padding: 0 20px;
   font-family: "ProximaNovaSemibold";
   z-index: 1;
+}
+.image-small-content {
+  min-height: 100%;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-family: "ProximaNovaSemibold";
+  z-index: 1;
+  background-size: cover;
 }
 .image-center-content {
   font-size: 36px;
@@ -25,25 +58,80 @@
   padding: 0 40px;
   margin-bottom: 26px;
 }
+.image-small-center-content {
+  font-size: 15px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 1px 1px rgba(0, 9, 28, 0.6);
+  color: #fff;
+  font-family: "ProximaNovaBold";
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.small-content {
+  font-size: 10px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 1px 1px rgba(0, 9, 28, 0.6);
+  color: #fff;
+  font-family: "ProximaNovaBold";
+}
 .date-container {
   color: #fff;
   font-size: 15px;
-  padding-left: 15vh;
 }
-.wiews-icon {
+.date-small {
+  color: #fff;
+}
+.views-icon {
   color: #fff;
   font-size: 15px;
   line-height: normal;
   letter-spacing: 0.05em;
   text-transform: capitalize;
   display: flex;
-  padding-left: 10vh;
 }
-.coment-icon {
+.views-small-icon {
+  color: #fff;
+  font-size: 8px;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  display: flex;
+}
+.comment-icon {
   color: #fff;
   font-size: 15px;
   line-height: normal;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  padding-left: 10vh;
+}
+.comment-small-icon {
+  color: #fff;
+  font-size: 8px;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+.strip {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.news {
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.link-watch {
+  font-size: 14px;
+  color: #E23A4C;
+  cursor: pointer;
+}
+.latest-news {
+  font-size: 19px;
+  line-height: 25px;
+  text-transform: uppercase;
 }
