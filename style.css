@@ -11,11 +11,14 @@ li:first-child {
 li:last-child {
   border-bottom: 0 !important;
 }
+span {
+  color: #E23A4C
+}
 .main-container {
   min-height: 66vh;
 }
 .background-container {
-  background-image: url(https://mirpozitiva.ru/uploads/posts/2016-08/medium/1472042903_31.jpg);
+  background-image: url(https://ain.ua/wp-content/uploads/2019/10/it_arena_2_mini.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +29,7 @@ li:last-child {
   background-position: center center;
   background-repeat: no-repeat;
   max-width: 100%;
-  min-height: 20vh;
+  height: 20vh;
 }
 .image-content {
   min-height: 100%;
@@ -38,7 +41,6 @@ li:last-child {
   z-index: 1;
 }
 .image-small-content {
-  min-height: 100%;
   font-size: 12px;
   color: #fff;
   text-transform: uppercase;
@@ -69,6 +71,7 @@ li:last-child {
   padding: 0 10px;
   margin-bottom: 10px;
   margin-top: 10px;
+  height: 100%;
 }
 .small-content {
   font-size: 10px;
