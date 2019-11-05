@@ -143,3 +143,14 @@ span {
   line-height: 25px;
   text-transform: uppercase;
 }
+.block-wrap-container {
+    @media (min-width: 1024px)
+    width: 100%;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    min-width: 635px;
+}
+.post-content {
+  @media (max-width: 1219px)
+    margin-top: 0;
+}
