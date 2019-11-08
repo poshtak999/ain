@@ -14,6 +14,16 @@ li:last-child {
 span {
   color: #E23A4C
 }
+a {
+  color: black;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+.read-more-li {
+  color: red;
+}
 .main-news-container{
   @media (min-width: 992px) {
     padding-right: .5rem !important;
@@ -153,4 +163,14 @@ span {
 .post-content {
   @media (max-width: 1219px)
     margin-top: 0;
+}
+.h-70 {
+  height: 70%!important;
+}
+.h-10 {
+  height: 10%!important;
+}
+.icon-social {
+  font-size: 35px;
+  cursor: pointer;
 }
